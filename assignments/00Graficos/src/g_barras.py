@@ -14,7 +14,6 @@ def grafico_barras():
 
 # Grafico de barras con coordenadas en el Eje-X [xs] y valores [num_oscars] --------
     plt.bar(xs, num_oscars)
-
     plt.ylabel("# de Academy Awards")
     plt.title("My Favorite Movies")
 
